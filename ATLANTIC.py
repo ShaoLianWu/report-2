@@ -4,8 +4,11 @@ def BostonCeltics():
   st.header('Boston Celtics')
   
   st.write('Boston Celtics(1946年-至今)')
-  image = Image.open('BostonCeltics.png')
-  st.image(image)
+  col1, col2 = st.columns(2)
+  with col1:
+   image = Image.open('BostonCeltics.png')
+  with col2:
+   st.image(image)
   
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "22  次")
