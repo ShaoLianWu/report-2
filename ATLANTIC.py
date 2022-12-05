@@ -55,7 +55,7 @@ def Philadelphia76ers():
      st.subheader('老闆:Tad Brown')
      st.subheader('GM:Elton Brand')
      st.subheader('總教練:Doc Rivers')     
-  st.write('雪城國民(1946年-1963年)-費城76人(1963年-至今'))
+  st.write('雪城國民(1946年-1963年)-費城76人(1963年-至今)')
   st.write('費城76人隊的英文隊名為Philadelphia 76ers，成立於1939年，目前所在地區是美國賓夕法尼亞州費城(Philadelphia, Pennsylvania)，主場為富國中心球館(Wells Fargo Center)')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "3  次")
