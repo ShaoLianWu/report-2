@@ -18,6 +18,7 @@ def BostonCeltics():
 def BrooklynNets():
   st.header('Brooklyn Nets')
   image = Image.open('teams logo/BrooklynNets.png')
+  st.image(image) 
   st.write('Brooklyn Nets(1946年-至今)')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "22  次")
