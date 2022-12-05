@@ -7,5 +7,7 @@ if option=='ATLANTIC':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Boston Celtics', 'Brooklyn Nets', 'New York Knicks', 'Philadelphia 76ers','Toronto Raptors'])
   if teams=='Boston Celtics':
     ATLANTIC.BostonCeltics()
+  if teams=='Brooklyn Nets':
+    ATLANTIC.BrooklynNets()
     
     
