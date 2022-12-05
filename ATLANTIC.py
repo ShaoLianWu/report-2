@@ -1,5 +1,5 @@
 import streamlit as st  
-def Boston Celtics():
+def BostonCeltics():
   st.header('Boston Celtics')
   st.write('Boston Celtics(1946年-至今)')
   col1, col2,col3= st.columns(3)
