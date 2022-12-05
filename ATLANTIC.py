@@ -18,7 +18,7 @@ def BostonCeltics():
 def BrooklynNets():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/BostonCeltics.png')
+    image = Image.open('teams logo/BrooklynNets.png')
     st.image(image) 
   with col2:
      st.title('Brooklyn Nets')
