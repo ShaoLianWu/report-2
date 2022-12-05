@@ -9,5 +9,12 @@ if option=='ATLANTIC':
     ATLANTIC.BostonCeltics()
   if teams=='Brooklyn Nets':
     ATLANTIC.BrooklynNets()
+  if teams=='New York Knicks':
+    ATLANTIC.NewYorkKnicks()  
+  if teams=='Philadelphia 76ers':
+    ATLANTIC.Philadelphia76ers() 
+  if teams=='Toronto Raptors':
+    ATLANTIC.TorontoRaptors()
+    
     
     
