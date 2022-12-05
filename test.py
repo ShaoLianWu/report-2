@@ -6,6 +6,6 @@ option = st.sidebar.selectbox( '選擇分組？', ['ATLANTIC', '中央組', '東
 if option=='ATLANTIC':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Boston Celtics', 'Brooklyn Nets', 'New York Knicks', 'Philadelphia 76ers','Toronto Raptors'])
   if teams=='Boston Celtics':
-    BostonCeltics()
+    st.write(BostonCeltics())
 
     
