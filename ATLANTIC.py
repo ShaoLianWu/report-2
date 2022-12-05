@@ -1,5 +1,4 @@
 import streamlit as st  
-import teams logo
 from PIL import Image  
 def BostonCeltics():
   col1, col2 = st.columns(2)
