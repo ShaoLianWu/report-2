@@ -30,6 +30,21 @@ def BrooklynNets():
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "0  次")
   col2.metric("分組冠軍🏆", "2  次")   
-  
+def NewYorkKnicks():
+  col1, col2 = st.columns(2)
+  with col1:
+    image = Image.open('teams logo/NewYorkKnicks.png')
+    st.image(image) 
+  with col2:
+     st.title('New York Knicks')
+     st.subheader('老闆:Leon Rose')
+     st.subheader('GM:Scott Perry')
+     st.subheader('總教練:Tom Thibodeau')     
+  st.write('紐約尼克(1946年-至今)') 
+  st.write('紐約尼克隊的英文隊名為New York Knicks，成立於1946年，目前所在地區是美國紐約州紐約市，主場為麥迪遜花園廣場(Madison Square Garden)。')
+  col1, col2= st.columns(2)
+  col1.metric("聯盟冠軍🏆", "0  次")
+  col2.metric("分組冠軍🏆", "2  次")   
+    
   
   
