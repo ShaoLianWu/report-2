@@ -1,21 +1,21 @@
 import streamlit as st  
-import ATLANTIC 
+import Atlantic 
 import Central
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
-option = st.sidebar.selectbox( '選擇分組？', ['ATLANTIC', 'Central', '東南組', '西北組','太平洋組','西南組'])
-if option=='ATLANTIC':
+option = st.sidebar.selectbox( '選擇分組？', ['Atlantic', 'Central', '東南組', '西北組','太平洋組','西南組'])
+if option=='Atlantic':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Boston Celtics', 'Brooklyn Nets', 'New York Knicks', 'Philadelphia 76ers','Toronto Raptors'])
   if teams=='Boston Celtics':
-    ATLANTIC.BostonCeltics()
+    Atlantic.BostonCeltics()
   if teams=='Brooklyn Nets':
-    ATLANTIC.BrooklynNets()
+    Atlantic.BrooklynNets()
   if teams=='New York Knicks':
-    ATLANTIC.NewYorkKnicks()  
+    Atlantic.NewYorkKnicks()  
   if teams=='Philadelphia 76ers':
-    ATLANTIC.Philadelphia76ers() 
+    Atlantic.Philadelphia76ers() 
   if teams=='Toronto Raptors':
-    ATLANTIC.TorontoRaptors()
+    Atlantic.TorontoRaptors()
 if option=='Central':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Chicago Bulls', 'Cleveland Cavaliers', 'Detroit Pistons', 'Indiana Pacers','Milwaukee Bucks'])
   if teams=='Chicago Bulls':
