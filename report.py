@@ -3,7 +3,7 @@ import Atlantic
 import Central
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
-option = st.sidebar.selectbox( '選擇分組？', ['Atlantic', 'Central', '東南組', '西北組','太平洋組','西南組'])
+option = st.sidebar.selectbox( '選擇區域？', ['Atlantic', 'Central', 'Southeast', 'Northwest','Pacific','Southwest'])
 if option=='Atlantic':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Boston Celtics', 'Brooklyn Nets', 'New York Knicks', 'Philadelphia 76ers','Toronto Raptors'])
   if teams=='Boston Celtics':
