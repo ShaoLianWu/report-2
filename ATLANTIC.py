@@ -6,3 +6,4 @@ def Boston Celtics():
   col1.metric("冠軍🏆", "1  次")
   col2.metric("聯盟冠軍🏆", "22  次")
   col3.metric("分組冠軍🏆", "32  次")
+  st.write('Boston Celtics')
