@@ -24,7 +24,7 @@ def ClevelandCavaliers():
      st.title('Cleveland Cavaliers')
      st.subheader('老闆:Koby Altman')
      st.subheader('GM:Mike Gansey')
-     st.subheader('總教練:	J.B.Bickerstaff')     
+     st.subheader('總教練:J.B.Bickerstaff')     
   st.write('克里夫蘭騎士(1970年-至今)') 
   st.write('克里夫蘭騎士隊的英文隊名為Cleveland Cavaliers，球隊成立於1970年，目前所在城市是美國俄亥俄州克里夫蘭市(Cleveland, Ohio)，主場為速貸球館(Quicken Loans Arena)')
   col1, col2= st.columns(2)
