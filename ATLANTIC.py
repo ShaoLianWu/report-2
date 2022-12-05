@@ -6,8 +6,8 @@ def BostonCeltics():
     image = Image.open('BostonCeltics.png')
     st.image(image) 
   with col2:
-     st.write('歷史:波士頓塞爾提克1946年-至今')
      st.header('Boston Celtics') 
+     st.write('歷史:波士頓塞爾提克1946年-至今')
      st.write('老闆:Wyc Grousbeck')
      st.write('GM:Juka Mcehaic')
      st.write('總教練:Joe Mazzulla ((臨時)')
