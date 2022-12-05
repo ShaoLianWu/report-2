@@ -3,6 +3,7 @@ from PIL import Image
 def BostonCeltics():
   st.header('Boston Celtics')
   image = Image.open('BostonCeltics.png')
+  st.image(image)
   st.write('Boston Celtics(1946年-至今)')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "22  次")
