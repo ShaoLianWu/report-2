@@ -12,10 +12,10 @@ def AtlantaHawks_map():
     folium_static(StateFarmArena)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('State Farm Arena.jpeg')
+        image = Image.open('Home/State Farm Arena.jpeg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('State Farm Arena1.jpeg')
+        image1 = Image.open('Home/State Farm Arena1.jpeg')
         st.image(image1)
     st.write('地址：1 State Farm Dr, Atlanta, GA 30303美國,觀眾席數：18,371席')
   
@@ -29,10 +29,10 @@ def CharlotteHornets_map():
     folium_static(SpectrumCenter)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Spectrum Center.jpeg')       
+        image = Image.open('Home/Spectrum Center.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Spectrum Center1.jpeg')
+        image1 =Image.open('Home/Spectrum Center1.jpeg')
         st.image(image1)
     st.write('地址：333 E Trade St, Charlotte, NC 28202美國,觀眾席數：20,200席')
 def MiamiHeat_map():
@@ -45,10 +45,10 @@ def MiamiHeat_map():
     folium_static(FTXArena)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('FTX Arena.jpeg')       
+        image = Image.open('Home/FTX Arena.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('FTX Arena1.jpg')
+        image1 =Image.open('Home/FTX Arena1.jpg')
         st.image(image1)
     st.write('地址：601 Biscayne Blvd, Miami, FL 33132美國,觀眾席數：19,600席')
 def OrlandoMagic_map():
@@ -61,10 +61,10 @@ def OrlandoMagic_map():
     folium_static(AmwayCenter)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Amway Center.jpeg')       
+        image = Image.open('Home/Amway Center.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Amway Center1.jpeg')
+        image1 =Image.open('Home/Amway Center1.jpeg')
         st.image(image1)
     st.write('地址：400 W Church St Suite 200, Orlando, FL 32801美國,觀眾席數：18,846席')
 def WashingtonWizards_map():
@@ -77,9 +77,9 @@ def WashingtonWizards_map():
     folium_static(CapitalOneArena)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Capital One Arena.jpeg')       
+        image = Image.open('Home/Capital One Arena.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Capital One Arena1.jpeg')
+        image1 =Image.open('Home/Capital One Arena1.jpeg')
         st.image(image1)
     st.write('地址：601 F St NW, Washington, DC 20004美國,觀眾席數：20,356席')
