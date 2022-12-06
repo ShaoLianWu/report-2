@@ -12,11 +12,11 @@ def BostonCeltics_map():
     folium_static(TDGarden)
    # col1, col2 = st.columns(2)
     #with col1:
-        image = Image.open('Home/TD Garden.jpg')
-        st.image(image)        
+       # image = Image.open('Home/TD Garden.jpg')
+       # st.image(image)        
     #with col2:        
-        image1 = Image.open('Home/TD Garden1.jpg')
-        st.image(image1)
+      #  image1 = Image.open('Home/TD Garden1.jpg')
+       # st.image(image1)
     st.write('地址：100 Legends Way, Boston,  MA 02114美國')
              #觀眾席數：18624席')
   
