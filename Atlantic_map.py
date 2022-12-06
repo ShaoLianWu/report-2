@@ -32,6 +32,6 @@ def BrooklynNets_map():
         image = Image.open('Home/Barclays Center.jpg')       
         st.image(image)
     with col2:
-        image =Image.open('Home/Barclays Center1.jpg')
+        image1 =Image.open('Home/Barclays Center1.jpg')
         st.image(image1)
     st.write('地址：620 Atlantic Ave, Brooklyn, NY 11217美國,觀眾席數：17732席')
