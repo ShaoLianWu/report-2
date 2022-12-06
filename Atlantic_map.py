@@ -30,9 +30,9 @@ def BrooklynNets_map():
         st.image(image)
         st.image(image1)
     with col2:
-        Barclays Center= folium.Map(location=[40.682725423383374, -73.97526212020857], zoom_start=16)
+        BarclaysCenter= folium.Map(location=[40.682725423383374, -73.97526212020857], zoom_start=16)
         # add marker for Liberty Bell
         tooltip = "巴克萊中心"
         folium.Marker([40.682725423383374, -73.97526212020857], popup="巴克萊中心", tooltip=tooltip
-        ).add_to(Barclays Center)
-        folium_static(Barclays Center)
+        ).add_to(BarclaysCenter)
+        folium_static(BarclaysCenter)
