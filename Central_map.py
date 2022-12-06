@@ -53,36 +53,36 @@ def DetroitPistons_map():
         st.image(image1)
     st.write('地址：2645 Woodward Ave, Detroit, MI 48201美國,觀眾席數：21000席')
 
-def Philadelphia76ers_map():
-    st.header('主場:富國銀行中心')
-    wellsfargocenter= folium.Map(location=[39.90130024709659, -75.17162545031324], zoom_start=16)
+def IndianaPacers_map():
+    st.header('主場:銀行家生活球館')
+    GainbridgeFieldhouse= folium.Map(location=[39.76423306239759, -86.15505390428618], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "富國銀行中心"
-    folium.Marker([39.90130024709659, -75.17162545031324], popup="富國銀行中心", tooltip=tooltip
-    ).add_to(wellsfargocenter)
-    folium_static(wellsfargocenter)
+    tooltip = "銀行家生活球館"
+    folium.Marker([39.76423306239759, -86.15505390428618], popup="銀行家生活球館", tooltip=tooltip
+    ).add_to(GainbridgeFieldhouse)
+    folium_static(GainbridgeFieldhouse)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Home/wellsfargocenter.jpg')       
+        image = Image.open('Home/GainbridgeFieldhouse.jpg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Home/wellsfargocenter1.jpg')
+        image1 =Image.open('Home/GainbridgeFieldhouse1.jpg')
         st.image(image1)
-    st.write('地址：3601 S Broad St, Philadelphia, PA 19148美國,觀眾席數：21000席')
+    st.write('地址：125 S Pennsylvania St, Indianapolis, IN 46204美國,觀眾席數：17923席')
 
-def TorontoRaptors_map():
-    st.header('主場:豐業銀行體育館')
-    ScotiabankArena= folium.Map(location=[43.643485488886185, -79.37908251728793], zoom_start=16)
+def MilwaukeeBucks_map():
+    st.header('主場:第一服務廣場')
+    FiservForum= folium.Map(location=[43.0451977912526, -87.91697850606084], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "豐業銀行體育館"
-    folium.Marker([43.643485488886185, -79.37908251728793], popup="豐業銀行體育館", tooltip=tooltip
-    ).add_to(ScotiabankArena)
-    folium_static(ScotiabankArena)
+    tooltip = "第一服務廣場"
+    folium.Marker([43.0451977912526, -87.91697850606084], popup="第一服務廣場", tooltip=tooltip
+    ).add_to(FiservForum)
+    folium_static(FiservForum)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Home/ScotiabankArena.jpg')       
+        image = Image.open('Home/FiservForum.jpg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Home/ScotiabankArena1.jpg')
+        image1 =Image.open('Home/FiservForum1.jpg')
         st.image(image1)
-    st.write('地址：40 Bay St., Toronto, ON M5J 2X2加拿大,觀眾席數：19800席')    
+    st.write('地址：1111 Vel R. Phillips Ave, Milwaukee, WI 53203美國,觀眾席數：17385席')    
