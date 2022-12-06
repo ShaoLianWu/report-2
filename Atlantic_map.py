@@ -1,6 +1,6 @@
 import streamlit as st
 import folium    
-def BostonCeltics_map()
+def BostonCeltics_map():
     with col1:
         st.header('主場:TD北岸花園球館')
         st.write('地址：臺中市北屯區崇德路三段835號')
