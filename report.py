@@ -1,6 +1,8 @@
 import streamlit as st  
 import Atlantic 
 import Central
+import Southeast 
+import Northwest
 import Pacific 
 import Southwest
 import Atlantic_map
@@ -59,5 +61,28 @@ if option=='Southwest':
     Southwest.New_Orleans_Pelicans()
   if teams=='San Antonio Spurs':
     Southwest.San_Antonio_Spurs()
-    
+if option=='Southeast':
+  teams=st.sidebar.selectbox( '選擇球隊？', ['Atlanta Hawks', 'Charlotte Hornets', 'Miami Heat', 'Orlando Magic','Washington Wizards'])
+  if teams=='Atlanta Hawks':
+    SOUTHEAST.AtlantaHawks()
+  if teams=='Charlotte Hornets':
+    SOUTHEAST.CharlotteHornets()
+  if teams=='Miami Heat':
+    SOUTHEAST.MiamiHeat()
+  if teams=='Orlando Magic':
+    SOUTHEAST.OrlandoMagic()
+  if teams=='Washington Wizards':
+    SOUTHEAST.WashingtonWizards()
+if option=='N':
+  teams=st.sidebar.selectbox( '選擇球隊？', ['Denver Nuggets', 'Minnesota Timberwolves', 'Oklahoma City Thunder', 'Portland Trail Blazers','Utah Jazz'])
+  if teams=='Denver Nuggets':
+    NORTHWEST.DenverNuggets()
+  if teams=='Minnesota Timberwolves':
+    NORTHWEST.MinnesotaTimberwolves()
+  if teams=='Oklahoma City Thunder':
+    NORTHWEST.OklahomCityThunder()
+  if teams=='Portland Trail Blazers':
+    NORTHWEST.PortlandTrailBlazers()
+  if teams=='Utah Jazz':
+    NORTHWEST.UtahJazz()
     
