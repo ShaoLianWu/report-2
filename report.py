@@ -18,11 +18,14 @@ if option=='Atlantic':
     Atlantic.BrooklynNets()
     Atlantic_map.BrooklynNets_map()
   if teams=='New York Knicks':
-    Atlantic.NewYorkKnicks()  
+    Atlantic.NewYorkKnicks() 
+    Atlantic_map.NewYorkKnicks_map()
   if teams=='Philadelphia 76ers':
     Atlantic.Philadelphia76ers() 
+    Atlantic_map.Philadelphia76ers_map()
   if teams=='Toronto Raptors':
     Atlantic.TorontoRaptors()
+    Atlantic_map.TorontoRaptors_map()
     
 if option=='Central':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Chicago Bulls', 'Cleveland Cavaliers', 'Detroit Pistons', 'Indiana Pacers','Milwaukee Bucks'])
