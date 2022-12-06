@@ -1,5 +1,6 @@
 import streamlit as st
-import folium    
+import folium 
+from PIL import Image  
 from streamlit_folium import folium_static 
 def BostonCeltics_map():
     col1, col2 = st.columns(2)
