@@ -3,7 +3,7 @@ from PIL import Image
 def AtlantaHawks():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Atlanta_Hawks.png')
+    image = Image.open('teams logo/Atlanta_Hawks.png')
     st.image(image) 
   with col2:
      st.title('Atlanta Hawks')
@@ -18,7 +18,7 @@ def AtlantaHawks():
 def CharlotteHornets():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Charlotte Hornets.png')
+    image = Image.open('teams logo/Charlotte Hornets.png')
     st.image(image) 
   with col2:
      st.title('Charlotte Hornets')
@@ -33,7 +33,7 @@ def CharlotteHornets():
 def MiamiHeat():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Miami Heat.png')
+    image = Image.open('teams logo/Miami Heat.png')
     st.image(image) 
   with col2:
      st.title('Miami Heat')
@@ -48,7 +48,7 @@ def MiamiHeat():
 def OrlandoMagic():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Orlando Magic.png')
+    image = Image.open('teams logo/Orlando Magic.png')
     st.image(image) 
   with col2:
      st.title('Orlando Magic')
@@ -63,7 +63,7 @@ def OrlandoMagic():
 def WashingtonWizards():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Washington Wizards.png')
+    image = Image.open('teams logo/Washington Wizards.png')
     st.image(image) 
   with col2:
      st.title('Washington Wizards')
