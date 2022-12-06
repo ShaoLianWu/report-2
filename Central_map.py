@@ -36,22 +36,22 @@ def ClevelandCavaliers_map():
         st.image(image1)
     st.write('地址：1 Center Court, Cleveland, OH 44115美國,觀眾席數：20562席')
     
-def NewYorkKnicks_map():
-    st.header('主場:麥迪遜廣場花園')
-    MSGTheGarden= folium.Map(location=[40.7505, -73.99352], zoom_start=16)
+def DetroitPistons_map():
+    st.header('主場:小凱薩體育館')
+    LittleCaesarsArena= folium.Map(location=[42.3412532527852, -83.05525657294322], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "麥迪遜廣場花園"
-    folium.Marker([40.7505, -73.99352], popup="麥迪遜廣場花園", tooltip=tooltip
-    ).add_to(MSGTheGarden)
-    folium_static(MSGTheGarden)
+    tooltip = "小凱薩體育館"
+    folium.Marker([42.3412532527852, -83.05525657294322], popup="小凱薩體育館", tooltip=tooltip
+    ).add_to(LittleCaesarsArena)
+    folium_static(LittleCaesarsArena)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Home/MSGTheGarden.jpg')       
+        image = Image.open('Home/LittleCaesarsArena.jpg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Home/MSGTheGarden1.jpg')
+        image1 =Image.open('Home/LittleCaesarsArena1.jpg')
         st.image(image1)
-    st.write('地址：4 Pennsylvania Plaza, New York, NY 10001美國,觀眾席數：19812席')
+    st.write('地址：2645 Woodward Ave, Detroit, MI 48201美國,觀眾席數：21000席')
 
 def Philadelphia76ers_map():
     st.header('主場:富國銀行中心')
