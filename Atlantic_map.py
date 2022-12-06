@@ -13,13 +13,9 @@ def BostonCeltics_map():
     col1, col2 = st.columns(2)
     with col1:
         image = Image.open('Home/TD Garden.jpg')
-        st.image(image)
-        
-        
-    with col2:
-        
+        st.image(image)        
+    with col2:        
         image1 = Image.open('Home/TD Garden1.jpg')
-        st.image(image)
         st.image(image1)
     st.write('地址：100 Legends Way, Boston, MA 02114美國')
     st.write('觀眾席數：18624席')
