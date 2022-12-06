@@ -64,25 +64,25 @@ if option=='Southwest':
 if option=='Southeast':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Atlanta Hawks', 'Charlotte Hornets', 'Miami Heat', 'Orlando Magic','Washington Wizards'])
   if teams=='Atlanta Hawks':
-    SOUTHEAST.AtlantaHawks()
+    Southeast.AtlantaHawks()
   if teams=='Charlotte Hornets':
-    SOUTHEAST.CharlotteHornets()
+    Southeast.CharlotteHornets()
   if teams=='Miami Heat':
-    SOUTHEAST.MiamiHeat()
+    Southeast.MiamiHeat()
   if teams=='Orlando Magic':
-    SOUTHEAST.OrlandoMagic()
+    Southeast.OrlandoMagic()
   if teams=='Washington Wizards':
-    SOUTHEAST.WashingtonWizards()
-if option=='N':
+    Southeast.WashingtonWizards()
+if option=='Northwest':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Denver Nuggets', 'Minnesota Timberwolves', 'Oklahoma City Thunder', 'Portland Trail Blazers','Utah Jazz'])
   if teams=='Denver Nuggets':
-    NORTHWEST.DenverNuggets()
+    Northwest.DenverNuggets()  
   if teams=='Minnesota Timberwolves':
-    NORTHWEST.MinnesotaTimberwolves()
+    Northwest.MinnesotaTimberwolves()
   if teams=='Oklahoma City Thunder':
-    NORTHWEST.OklahomCityThunder()
+    Northwest.OklahomCityThunder()
   if teams=='Portland Trail Blazers':
-    NORTHWEST.PortlandTrailBlazers()
+    Northwest.PortlandTrailBlazers()
   if teams=='Utah Jazz':
-    NORTHWEST.UtahJazz()
+    Northwest.UtahJazz()
     
