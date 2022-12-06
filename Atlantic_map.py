@@ -38,10 +38,10 @@ def BrooklynNets_map():
     
 def NewYorkKnicks_map():
     st.header('主場:麥迪遜廣場花園')
-    MSGTheGarden= folium.Map(location=[40.751044733512316, -73.9933980584234], zoom_start=16)
+    MSGTheGarden= folium.Map(location=[40.7505, -73.99352], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "麥迪遜廣場花園"
-    folium.Marker([40.751044733512316, -73.9933980584234], popup="麥迪遜廣場花園", tooltip=tooltip
+    folium.Marker([40.7505, -73.99352], popup="麥迪遜廣場花園", tooltip=tooltip
     ).add_to(MSGTheGarden)
     folium_static(MSGTheGarden)
     col1, col2 = st.columns(2)
