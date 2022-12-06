@@ -52,3 +52,37 @@ def NewYorkKnicks_map():
         image1 =Image.open('Home/MSGTheGarden1.jpg')
         st.image(image1)
     st.write('地址：4 Pennsylvania Plaza, New York, NY 10001美國,觀眾席數：19812席')
+
+def Philadelphia76ers_map():
+    st.header('主場:富國銀行中心')
+    wellsfargocenter= folium.Map(location=[39.90130024709659, -75.17162545031324], zoom_start=16)
+        # add marker for Liberty Bell
+    tooltip = "富國銀行中心"
+    folium.Marker([39.90130024709659, -75.17162545031324], popup="富國銀行中心", tooltip=tooltip
+    ).add_to(wellsfargocenter)
+    folium_static(wellsfargocenter)
+    col1, col2 = st.columns(2)
+    with col1:          
+        image = Image.open('Home/wellsfargocenter.jpg')       
+        st.image(image)
+    with col2:
+        image1 =Image.open('Home/wellsfargocenter1.jpg')
+        st.image(image1)
+    st.write('地址：3601 S Broad St, Philadelphia, PA 19148美國,觀眾席數：21000席')
+
+def TorontoRaptors_map():
+    st.header('主場:豐業銀行體育館')
+    ScotiabankArena= folium.Map(location=[43.643485488886185, -79.37908251728793], zoom_start=16)
+        # add marker for Liberty Bell
+    tooltip = "豐業銀行體育館"
+    folium.Marker([43.643485488886185, -79.37908251728793], popup="豐業銀行體育館", tooltip=tooltip
+    ).add_to(ScotiabankArena)
+    folium_static(ScotiabankArena)
+    col1, col2 = st.columns(2)
+    with col1:          
+        image = Image.open('Home/ScotiabankArena.jpg')       
+        st.image(image)
+    with col2:
+        image1 =Image.open('Home/ScotiabankArena1.jpg')
+        st.image(image1)
+    st.write('地址：40 Bay St., Toronto, ON M5J 2X2加拿大,觀眾席數：19800席')    
