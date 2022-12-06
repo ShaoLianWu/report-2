@@ -8,6 +8,7 @@ import Southwest
 import Atlantic_map#存取Atlantic_map.py
 import Central_map
 import Southeast_map
+import Northwest_map
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
 option = st.sidebar.selectbox( '選擇區域？', ['Atlantic', 'Central', 'Southeast', 'Northwest','Pacific','Southwest'])
@@ -91,13 +92,18 @@ if option=='Southeast':
 if option=='Northwest':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Denver Nuggets', 'Minnesota Timberwolves', 'Oklahoma City Thunder', 'Portland Trail Blazers','Utah Jazz'])
   if teams=='Denver Nuggets':
-    Northwest.DenverNuggets()  
+    Northwest.DenverNuggets() 
+    Northwest_map.DenverNuggets_map() 
   if teams=='Minnesota Timberwolves':
     Northwest.MinnesotaTimberwolves()
+    Northwest_map.MinnesotaTimberwolves_map() 
   if teams=='Oklahoma City Thunder':
     Northwest.OklahomCityThunder()
+    Northwest_map.OklahomCityThunder_map() 
   if teams=='Portland Trail Blazers':
     Northwest.PortlandTrailBlazers()
+    Northwest_map.PortlandTrailBlazers_map() 
   if teams=='Utah Jazz':
     Northwest.UtahJazz()
+    Northwest_map.UtahJazz_map() 
     
