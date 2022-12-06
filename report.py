@@ -16,6 +16,7 @@ if option=='Atlantic':
     Atlantic_map.BostonCeltics_map()
   if teams=='Brooklyn Nets':
     Atlantic.BrooklynNets()
+    Atlantic_map.BrooklynNets_map()
   if teams=='New York Knicks':
     Atlantic.NewYorkKnicks()  
   if teams=='Philadelphia 76ers':
