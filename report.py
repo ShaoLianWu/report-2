@@ -11,6 +11,7 @@ if option=='Atlantic':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Boston Celtics', 'Brooklyn Nets', 'New York Knicks', 'Philadelphia 76ers','Toronto Raptors'])
   if teams=='Boston Celtics':
     Atlantic.BostonCeltics()
+    Atlantic_map.
   if teams=='Brooklyn Nets':
     Atlantic.BrooklynNets()
   if teams=='New York Knicks':
