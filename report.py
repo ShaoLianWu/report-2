@@ -3,6 +3,7 @@ import Atlantic
 import Central
 import Pacific 
 import Southwest
+import Atlantic_map
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
 option = st.sidebar.selectbox( '選擇區域？', ['Atlantic', 'Central', 'Southeast', 'Northwest','Pacific','Southwest'])
