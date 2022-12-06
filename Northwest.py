@@ -1,77 +1,77 @@
 import streamlit as st  
 from PIL import Image  
-def DenverNuggets():
+def AtlantaHawks():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Denver Nuggets.png')
+    image = Image.open('Atlanta_Hawks.png')
     st.image(image) 
   with col2:
-     st.title('Denver Nuggets')
-     st.subheader('老闆:Kroenke Sports & Entertainment')
-     st.subheader('GM:Calvin Booth')
-     st.subheader('總教練:Michael Malone')     
-  st.write('丹佛火箭（ABA）(1967年-1974年)丹佛金塊（ABA）(1974年-1976年)丹佛金塊（NBA）(1976年-)') 
-  st.write('丹佛金塊隊的英文隊名為Denver Nuggets，球隊成立於1967年，所在地區是美國科羅拉多州丹佛市(Denver, Colorado)，主場為百事中心。')
-  col1, col2= st.columns(2)
-  col1.metric("聯盟冠軍🏆", "0  次")
-  col2.metric("分組冠軍🏆", "0  次")   
-def MinnesotaTimberwolves():
-  col1, col2 = st.columns(2)
-  with col1:
-    image = Image.open('Minnesota Timberwolves.jpeg')
-    st.image(image) 
-  with col2:
-     st.title('Minnesota Timberwolves')
-     st.subheader('老闆:Glen Taylor')
-     st.subheader('GM:Tim Connelly')
-     st.subheader('總教練:Chris Finch')     
-  st.write('明尼蘇達灰狼(1989年-–至今）') 
-  st.write('明尼蘇達灰狼隊的英文隊名為Minnesota Timberwolves，球隊成立於1989年，所在地區是美國明尼蘇達州明尼阿波利斯市(Minneapolis, Minnesota)，主場為標靶中心球館(Target Center)。')
-  col1, col2= st.columns(2)
-  col1.metric("聯盟冠軍🏆", "0  次")
-  col2.metric("分組冠軍🏆", "0  次")   
-def OklahomCityThunder():
-  col1, col2 = st.columns(2)
-  with col1:
-    image = Image.open('Oklahoma City Thunder.png')
-    st.image(image) 
-  with col2:
-     st.title('Oklahoma City Thunder')
-     st.subheader('老闆:Professional Basketball Club LLC (Clay Bennett, Chairman)')
-     st.subheader('GM:Sam Presti')
-     st.subheader('總教練:Mark Daigneault')     
-  st.write('西雅圖超音速(1967年-2008年)俄克拉何馬城雷霆(2008年-現今)') 
-  st.write('奧克拉荷馬雷霆隊的英文隊名為Oklahoma City Thunder，球隊成立於1967年，原名為西雅圖超音速隊，目前所在地區是美國奧克拉荷馬州奧克拉荷馬城(Oklahoma City, Oklahoma)，主場為切薩皮克能源球場(Chesapeake Energy Arena)。')
+     st.title('Atlanta Hawks')
+     st.subheader('老闆:Tony Ressler')
+     st.subheader('GM:Landry Fields')
+     st.subheader('總教練:Nate McMillan')     
+  st.write('水牛城野牛（1946年）三城黑鷹（1946年-1951年）密爾瓦基老鷹（1951年-1955年）聖路易斯老鷹（1955年-1968年）亞特蘭大老鷹（1968年-至今）') 
+  st.write('亞特蘭大老鷹的英文隊名為Atlanta Hawks，老鷹隊之名象徵著速度和進攻，球隊成立於1946年，在1949年加入NBA，是NBA的元老之一。目前所在城市是美國喬治亞州亞特蘭大市(Atlanta, Georgia)，主場為飛利浦球場(Philips Arena)。球隊最初名為「三城黑鷹隊」，1951年主場遷移到密爾瓦基市，改名「密爾瓦基鷹隊」，直到1968年主場移到亞特蘭大後才改成現在的亞特蘭大老鷹隊。')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "1  次")
   col2.metric("分組冠軍🏆", "4  次")   
-def PortlandTrailBlazers():
+def CharlotteHornets():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Portland Trail Blazers.png')
+    image = Image.open('Charlotte Hornets.png')
     st.image(image) 
   with col2:
-     st.title('Portland Trail Blazers')
-     st.subheader('老闆:Paul G. Allen Trust (Jody Allen, chairwoman)')
-     st.subheader('GM:Joe Cronin')
-     st.subheader('總教練:Chauncey Billups')     
-  st.write('波特蘭开拓者 (1970–-至今)') 
-  st.write('波特蘭拓荒者隊的英文隊名為Portland Trail Blazers，球隊成立於1970年，所在地區是美國俄勒岡州波特蘭市(Portland, Oregon)，主場為摩達中心(Moda Center)。')
-  col1, col2= st.columns(2)
-  col1.metric("聯盟冠軍🏆", "1  次")
-  col2.metric("分組冠軍🏆", "3  次")    
-def UtahJazz():
-  col1, col2 = st.columns(2)
-  with col1:
-    image = Image.open('Utah Jazz.jpeg')
-    st.image(image) 
-  with col2:
-     st.title('Utah Jazz')
-     st.subheader('老闆:Ryan Smith')
-     st.subheader('GM:Justin Zanik')
-     st.subheader('總教練:Will Hardy')     
-  st.write('紐奧良爵士(1974–1979)猶他爵士(1979年–-)') 
-  st.write('猶他爵士隊的英文隊名為Utah Jazz，球隊成立於1974年，所在地區是美國猶他州鹽湖城，主場為能源方案球館。成立之初主場在紐奧良，是爵士樂的發源地，球隊也因此命名。1979年爵士隊主場移到猶他州鹽湖城，而隊名則繼續沿用至今。球隊剛建立的幾個賽季表現都不如人意，到1976年Elgin Baylor成為總教練後表現開始回穩，1983-1984年賽季爵士隊第一次打入季後賽，這一季中Adrian Delano Dantley球946次中投進813球，成為NBA史上第一位在第四節罰球得分超過800分的球員，至此以後爵士隊水準發揮穩定。')
+     st.title('Charlotte Hornets')
+     st.subheader('老闆:Michael Jordan')
+     st.subheader('GM:Mitch Kupchak')
+     st.subheader('總教練:Steve Clifford')     
+  st.write('夏洛特黃蜂（1988年–2002年）夏洛特山貓（2004年–2014年）夏洛特黃蜂（1988年–2002年、2014年–至今）') 
+  st.write('夏洛特黃蜂隊的英文隊名為Charlotte Hornets，球隊成立於2004年，目前所在城市是美國北卡羅來納州夏洛特市(Charlotte, North Carolina)，主場為時代華納中心球館(Time Warner Cable Arena)。')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "0  次")
-  col2.metric("分組冠軍🏆", "2  次")   
+  col2.metric("分組冠軍🏆", "0  次")   
+def MiamiHeat():
+  col1, col2 = st.columns(2)
+  with col1:
+    image = Image.open('Miami Heat.png')
+    st.image(image) 
+  with col2:
+     st.title('Miami Heat')
+     st.subheader('老闆:Micky Arison')
+     st.subheader('GM:Andy Elisburg')
+     st.subheader('總教練:	Erik Spoelstra')     
+  st.write('邁阿密熱火(1988年--至今）') 
+  st.write('邁阿密熱火的英文隊名為Miami Heat，成立於1988年，目前所在地區是美國佛羅里達州邁阿密市(Miami, Florida)，主場為美國航空競技館(American Airlines Arena)，熱火隊的三巨頭分別是Dwyane Wade、LeBron James和Chris Bosh。1988年才加入NBA的年輕隊伍，在2005年-06年賽季首度通過東部決賽，打入總冠軍賽，在面對達拉斯小牛隊時原本連輸兩局，但最終倒贏小牛隊以4：2逆轉擊敗而奪冠。直到2011年再度打入NBA總決賽，對手同樣是2006年時遇到的小牛隊，這次邁阿密熱火隊以2：4未能奪得總冠軍，不過2012年再度打入NBA總決賽，對手是奧克拉荷馬雷霆隊，這次邁阿密熱火隊以4：1奪得總冠軍。2013年三度打入NBA總決賽，對手是拿過四次NBA總冠軍的聖安東尼奧馬刺隊，經過激戰七場，邁阿密熱火隊以4：3奪得總冠軍完成二連霸。2014年熱火再次於總決賽和馬刺隊碰頭，然而最終以1：4終止三連霸美夢。')
+  col1, col2= st.columns(2)
+  col1.metric("聯盟冠軍🏆", "3  次")
+  col2.metric("分組冠軍🏆", "6  次")   
+def OrlandoMagic():
+  col1, col2 = st.columns(2)
+  with col1:
+    image = Image.open('Orlando Magic.png')
+    st.image(image) 
+  with col2:
+     st.title('Orlando Magic')
+     st.subheader('老闆:RDV Sports, Inc.(Dan DeVos, chairman)')
+     st.subheader('GM:John Hammond')
+     st.subheader('總教練:Jamahl Mosley')     
+  st.write('奧蘭多魔術(1989年-至今)') 
+  st.write('奧蘭多魔術隊的英文隊名為Orlando Magic，球隊成立於1989年，所在地區是美國佛羅里達州奧蘭多市(Orlando, Florida)，主場為安利中心(Amway Center)。')
+  col1, col2= st.columns(2)
+  col1.metric("聯盟冠軍🏆", "0  次")
+  col2.metric("分組冠軍🏆", "2  次")    
+def WashingtonWizards():
+  col1, col2 = st.columns(2)
+  with col1:
+    image = Image.open('Washington Wizards.png')
+    st.image(image) 
+  with col2:
+     st.title('Washington Wizards')
+     st.subheader('老闆:Monumental Sports & Entertainment')
+     st.subheader('GM:Tommy Sheppard')
+     st.subheader('總教練:Wes Unseld Jr.')     
+  st.write('芝加哥包裝工(1961年-1962年)芝加哥西風(1962年-1963年)巴爾的摩子彈(1963年-1972年)首都子彈(1973年-1974年)華盛頓子彈(1974年-1997年)華盛頓巫師(1997年-)') 
+  st.write('華盛頓巫師隊的英文隊名為Washington Wizards，球隊成立於1961年，目前所在城市是美國華盛頓特區(Washington, D.C.)，現在主場為Verizon Center(原MIC中心球館 MCI Center)。巫師隊是隊名變化最頻繁的一支球隊，在1961年加入NBA時主場在芝加哥所以取名芝加哥包裝工隊，第二年改名芝加哥和風隊，第三年因為主場遷移到工業城市巴爾的摩，而改名巴爾的摩子彈隊，後來主場又移到華盛頓，隊名更動為華盛頓子彈隊，在1997年-1998年賽季則改為現在的華盛頓巫師隊。')
+  col1, col2= st.columns(2)
+  col1.metric("聯盟冠軍🏆", "1  次")
+  col2.metric("分組冠軍🏆", "4  次")   
