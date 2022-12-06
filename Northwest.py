@@ -3,7 +3,7 @@ from PIL import Image
 def DenverNuggets():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Denver Nuggets.png')
+    image = Image.open('teams logo/Denver Nuggets.png')
     st.image(image) 
   with col2:
      st.title('Denver Nuggets')
@@ -18,7 +18,7 @@ def DenverNuggets():
 def MinnesotaTimberwolves():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Minnesota Timberwolves.jpeg')
+    image = Image.open('teams logo/Minnesota Timberwolves.jpeg')
     st.image(image) 
   with col2:
      st.title('Minnesota Timberwolves')
@@ -33,7 +33,7 @@ def MinnesotaTimberwolves():
 def OklahomCityThunder():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Oklahoma City Thunder.png')
+    image = Image.open('teams logo/Oklahoma City Thunder.png')
     st.image(image) 
   with col2:
      st.title('Oklahoma City Thunder')
@@ -48,7 +48,7 @@ def OklahomCityThunder():
 def PortlandTrailBlazers():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Portland Trail Blazers.png')
+    image = Image.open('teams logo/Portland Trail Blazers.png')
     st.image(image) 
   with col2:
      st.title('Portland Trail Blazers')
@@ -63,7 +63,7 @@ def PortlandTrailBlazers():
 def UtahJazz():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Utah Jazz.jpeg')
+    image = Image.open('teams logo/Utah Jazz.jpeg')
     st.image(image) 
   with col2:
      st.title('Utah Jazz')
