@@ -35,3 +35,20 @@ def BrooklynNets_map():
         image1 =Image.open('Home/Barclays Center1.jpg')
         st.image(image1)
     st.write('地址：620 Atlantic Ave, Brooklyn, NY 11217美國,觀眾席數：17732席')
+    
+def NewYorkKnicks_map():
+    st.header('主場:麥迪遜廣場花園')
+    MSGTheGarden= folium.Map(location=[40.751044733512316, -73.9933980584234], zoom_start=16)
+        # add marker for Liberty Bell
+    tooltip = "麥迪遜廣場花園"
+    folium.Marker([40.751044733512316, -73.9933980584234], popup="麥迪遜廣場花園", tooltip=tooltip
+    ).add_to(MSGTheGarden)
+    folium_static(MSGTheGarden)
+    col1, col2 = st.columns(2)
+    with col1:          
+        image = Image.open('Home/MSGTheGarden.jpg')       
+        st.image(image)
+    with col2:
+        image1 =Image.open('Home/MSGTheGarden1.jpg')
+        st.image(image1)
+    st.write('地址：4 Pennsylvania Plaza, New York, NY 10001美國,觀眾席數：19812席')
