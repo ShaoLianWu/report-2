@@ -10,9 +10,9 @@ def BostonCeltics_map():
         image = Image.open('Home/TD Garden.png')
         st.image(image)
     with col2:
-        TD Garden= folium.Map(location=[42.2159, 71.344], zoom_start=16)
+        TDGarden= folium.Map(location=[42.2159, 71.344], zoom_start=16)
         # add marker for Liberty Bell
         tooltip = "臺中洲際棒球場"
         folium.Marker([42.2159, 71.344], popup="臺中洲際棒球場", tooltip=tooltip
-        ).add_to(TD Garden)
-        folium_static(TD Garden)
+        ).add_to(TDGarden)
+        folium_static(TDGarden)
