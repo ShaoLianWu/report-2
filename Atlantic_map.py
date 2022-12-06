@@ -1,5 +1,6 @@
 import streamlit as st
 import folium    
+from streamlit_folium import folium_static 
 def BostonCeltics_map():
     col1, col2 = st.columns(2)
     with col1:
@@ -13,6 +14,6 @@ def BostonCeltics_map():
         m1 = folium.Map(location=[24.19978, 120.68498], zoom_start=16)
         # add marker for Liberty Bell
         tooltip = "臺中洲際棒球場"
-        #folium.Marker([24.19978, 120.68498], popup="臺中洲際棒球場", tooltip=tooltip
-        #).add_to(m1)
-        #folium_static(m1)
+        folium.Marker([24.19978, 120.68498], popup="臺中洲際棒球場", tooltip=tooltip
+        ).add_to(m1)
+        folium_static(m1)
