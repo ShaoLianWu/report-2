@@ -13,6 +13,6 @@ def BostonCeltics_map():
         m1 = folium.Map(location=[24.19978, 120.68498], zoom_start=16)
         # add marker for Liberty Bell
         tooltip = "臺中洲際棒球場"
-        folium.Marker([24.19978, 120.68498], popup="臺中洲際棒球場", tooltip=tooltip
+        #folium.Marker([24.19978, 120.68498], popup="臺中洲際棒球場", tooltip=tooltip
         ).add_to(m1)
-        folium_static(m1)
+        #folium_static(m1)
