@@ -37,10 +37,10 @@ def CharlotteHornets_map():
     st.write('地址：333 E Trade St, Charlotte, NC 28202美國,觀眾席數：20,200席')
 def MiamiHeat_map():
     st.header('主場:FTX球館')
-    FTXArena= folium.Map(location=[25.781565618522425, -80.18702264697642], zoom_start=16)
+    FTXArena= folium.Map(location=[25.78136, -80.18793], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "FTX球館"
-    folium.Marker([25.781565618522425, -80.18702264697642], popup="FTX球館", tooltip=tooltip
+    folium.Marker([25.78136, -80.18793], popup="FTX球館", tooltip=tooltip
     ).add_to(FTXArena)
     folium_static(FTXArena)
     col1, col2 = st.columns(2)
