@@ -7,7 +7,7 @@ def BostonCeltics_map():
         st.header('主場:多倫多道明銀行花園')
         st.write('地址：100 Legends Way, Boston, Massachusetts, 02114')
         st.write('觀眾席數：18624席')
-        image = Image.open('Home/TD Garden.png')
+        image = Image.open('Home/TD Garden.jpg')
         st.image(image)
     with col2:
         TDGarden= folium.Map(location=[42.2159, 71.344], zoom_start=16)
