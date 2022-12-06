@@ -18,6 +18,7 @@ if option=='Atlantic':
     Atlantic.Philadelphia76ers() 
   if teams=='Toronto Raptors':
     Atlantic.TorontoRaptors()
+    
 if option=='Central':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Chicago Bulls', 'Cleveland Cavaliers', 'Detroit Pistons', 'Indiana Pacers','Milwaukee Bucks'])
   if teams=='Chicago Bulls':
@@ -30,7 +31,8 @@ if option=='Central':
     Central.IndianaPacers() 
   if teams=='Milwaukee Bucks':
     Central.MilwaukeeBucks()
- if option=='Pacific': 
+    
+if option=='Pacific': 
   teams=st.sidebar.selectbox( '選擇球隊？', ['Golden State Warriors', 'Los Angeles Clippers', 'Los Angeles Lakers', 'Phoenix Suns','Sacramento Kings'])
   if teams=='Golden State Warriors':
     Pacific.Golden_State_Warriors()
