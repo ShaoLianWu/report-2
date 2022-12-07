@@ -38,7 +38,7 @@ def MiamiHeat():
   with col2:
      st.write("""# Miami Heat""")
      st.write("""##### 老闆:Micky Arison""")
-     st.weite("""##### GM:Andy Elisburg""")
+     st.write("""##### GM:Andy Elisburg""")
      st.write("""##### 總教練:Erik Spoelstra""")     
   st.write('邁阿密熱火(1988年--至今）') 
   st.write('邁阿密熱火的英文隊名為Miami Heat，成立於1988年，目前所在地區是美國佛羅里達州邁阿密市(Miami, Florida)，主場為美國航空競技館(American Airlines Arena)，熱火隊的三巨頭分別是Dwyane Wade、LeBron James和Chris Bosh。1988年才加入NBA的年輕隊伍，在2005年-06年賽季首度通過東部決賽，打入總冠軍賽，在面對達拉斯小牛隊時原本連輸兩局，但最終倒贏小牛隊以4：2逆轉擊敗而奪冠。直到2011年再度打入NBA總決賽，對手同樣是2006年時遇到的小牛隊，這次邁阿密熱火隊以2：4未能奪得總冠軍，不過2012年再度打入NBA總決賽，對手是奧克拉荷馬雷霆隊，這次邁阿密熱火隊以4：1奪得總冠軍。2013年三度打入NBA總決賽，對手是拿過四次NBA總冠軍的聖安東尼奧馬刺隊，經過激戰七場，邁阿密熱火隊以4：3奪得總冠軍完成二連霸。2014年熱火再次於總決賽和馬刺隊碰頭，然而最終以1：4終止三連霸美夢。')
