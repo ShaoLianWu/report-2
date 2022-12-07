@@ -6,7 +6,7 @@ def BostonCeltics():
     image = Image.open('teams logo/BostonCeltics.png')
     st.image(image) 
   with col2:
-     st.write("""##### Boston Celtics""")
+     st.write("""### Boston Celtics""")
      st.write("""##### 老闆:Wyc Grousbeck""")
      st.write("""##### GM:Juka Mcehaic""")
      st.write("""##### 總教練:Joe Mazzulla (臨時)""")     
