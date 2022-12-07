@@ -36,7 +36,7 @@ def DetroitPistons():
     image = Image.open('teams logo/Detroit Pistons.png')
     st.image(image) 
   with col2:
-     st.write("""# Detroit Pistons")
+     st.write("""# Detroit Pistons""")
      st.write("""##### 老闆:Ed Stefanski""")
      st.write("""##### GM:Troy Weaver""")
      st.write("""##### 總教練:Dwane Casey""")     
