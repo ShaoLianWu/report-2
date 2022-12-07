@@ -21,10 +21,10 @@ def DenverNuggets_map():
   
 def MinnesotaTimberwolves_map():
     st.header('主場:標靶中心')
-    TargetCenter= folium.Map(location=[44.98006909117457, -93.2760948230289], zoom_start=16)
+    TargetCenter= folium.Map(location=[44.97956, -93.27617], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "標靶中心"
-    folium.Marker([44.98006909117457, -93.2760948230289], popup="標靶中心", tooltip=tooltip
+    folium.Marker([44.97956, -93.27617], popup="標靶中心", tooltip=tooltip
     ).add_to(TargetCenter)
     folium_static(TargetCenter)
     col1, col2 = st.columns(2)
