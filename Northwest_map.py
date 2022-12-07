@@ -4,10 +4,10 @@ from PIL import Image
 from streamlit_folium import folium_static 
 def DenverNuggets_map():
     st.header('主場:波爾體育館')
-    BallArena= folium.Map(location=[39.749843021630504, -105.00794625648932], zoom_start=16)
+    BallArena= folium.Map(location=[39.74868, -105.00758], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "波爾體育館"
-    folium.Marker([39.749843021630504, -105.00794625648932], popup="波爾體育館", tooltip=tooltip
+    folium.Marker([39.74868, -105.00758], popup="波爾體育館", tooltip=tooltip
     ).add_to(BallArena)
     folium_static(BallArena)
     col1, col2 = st.columns(2)
