@@ -7,9 +7,9 @@ def BostonCeltics():
     st.image(image) 
   with col2:
      st.write("""# Boston Celtics""")
-     st.write("""#### 老闆:Wyc Grousbeck""")
-     st.write("""#### GM:Juka Mcehaic""")
-     st.write("""#### 總教練:Joe Mazzulla (臨時)""")     
+     st.write("""##### 老闆:Wyc Grousbeck""")
+     st.write("""##### GM:Juka Mcehaic""")
+     st.write("""##### 總教練:Joe Mazzulla (臨時)""")     
   st.write('波士頓塞爾提克(1946年-至今)') 
   st.write('波士頓塞爾蒂克隊的英文隊名為Boston Celtics，成立於1946年，目前所在地區是美國麻塞諸塞州波士頓市，主場為TD北岸花園球館，為美國職籃史上獲得總冠軍次數最多的球隊。')
   col1, col2= st.columns(2)
