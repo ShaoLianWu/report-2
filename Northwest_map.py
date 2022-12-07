@@ -12,10 +12,10 @@ def DenverNuggets_map():
     folium_static(BallArena)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('Ball Arena .jpeg')
+        image = Image.open('Home/Ball Arena .jpeg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('Ball Arena 1.jpeg')
+        image1 = Image.open('Home/Ball Arena 1.jpeg')
         st.image(image1)
     st.write('地址：1000 Chopper Cir, Denver, CO 80204美國,觀眾席數：19,155席')
   
@@ -29,10 +29,10 @@ def MinnesotaTimberwolves_map():
     folium_static(TargetCenter)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Target Center.jpeg')       
+        image = Image.open('Home/Target Center.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Target Center1.jpeg')
+        image1 =Image.open('Home/Target Center1.jpeg')
         st.image(image1)
     st.write('地址：600 N 1st Ave, Minneapolis, MN 55403美國,觀眾席數：18,798席')
 def OklahomCityThunder_map():
@@ -45,10 +45,10 @@ def OklahomCityThunder_map():
     folium_static(ChesapeakeEnergyArena)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Chesapeake Energy Arena .jpeg')       
+        image = Image.open('Home/Chesapeake Energy Arena .jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Chesapeake Energy Arena1.jpeg')
+        image1 =Image.open('Home/Chesapeake Energy Arena1.jpeg')
         st.image(image1)
     st.write('地址：100 W Reno Ave, Oklahoma City, OK 73102美國,觀眾席數：18,203席')
 def PortlandTrailBlazers_map():
@@ -61,10 +61,10 @@ def PortlandTrailBlazers_map():
     folium_static(ModaCenter)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Moda Center.jpeg')       
+        image = Image.open('Home/Moda Center.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Moda Center1.jpeg')
+        image1 =Image.open('Home/Moda Center1.jpeg')
         st.image(image1)
     st.write('地址：1 N Center Ct St, Portland, OR 97227美國,觀眾席數：20,630席')
 def UtahJazz_map():
@@ -77,9 +77,9 @@ def UtahJazz_map():
     folium_static(VivintArena)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Vivint Arena.jpeg')       
+        image = Image.open('Home/Vivint Arena.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Vivint Arena1.jpeg')
+        image1 =Image.open('Home/Vivint Arena1.jpeg')
         st.image(image1)
     st.write('地址：301 S Temple, Salt Lake City, UT 84101美國,觀眾席數：20,000席')
