@@ -37,10 +37,10 @@ def MinnesotaTimberwolves_map():
     st.write('地址：600 N 1st Ave, Minneapolis, MN 55403美國,觀眾席數：18,798席')
 def OklahomCityThunder_map():
     st.header('主場:切薩皮克能源球館')
-    ChesapeakeEnergyArena= folium.Map(location=[35.46412251164774, -97.51519977239266], zoom_start=16)
+    ChesapeakeEnergyArena= folium.Map(location=[35.4634, -97.5151], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "切薩皮克能源球館"
-    folium.Marker([35.46412251164774, -97.51519977239266], popup="切薩皮克能源球館", tooltip=tooltip
+    folium.Marker([35.4634, -97.5151], popup="切薩皮克能源球館", tooltip=tooltip
     ).add_to(ChesapeakeEnergyArena)
     folium_static(ChesapeakeEnergyArena)
     col1, col2 = st.columns(2)
@@ -53,10 +53,10 @@ def OklahomCityThunder_map():
     st.write('地址：100 W Reno Ave, Oklahoma City, OK 73102美國,觀眾席數：18,203席')
 def PortlandTrailBlazers_map():
     st.header('主場:摩達中心')
-    ModaCenter= folium.Map(location=[45.53222514229469, -122.6669282525212], zoom_start=16)
+    ModaCenter= folium.Map(location=[45.53158, -122.66685], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "摩達中心"
-    folium.Marker([45.53222514229469, -122.6669282525212], popup="摩達中心", tooltip=tooltip
+    folium.Marker([45.53158, -122.66685], popup="摩達中心", tooltip=tooltip
     ).add_to(ModaCenter)
     folium_static(ModaCenter)
     col1, col2 = st.columns(2)
@@ -69,10 +69,10 @@ def PortlandTrailBlazers_map():
     st.write('地址：1 N Center Ct St, Portland, OR 97227美國,觀眾席數：20,630席')
 def UtahJazz_map():
     st.header('主場:生活智能家居球館')
-    VivintArena= folium.Map(location=[40.76950185004792, -111.9012591931141], zoom_start=16)
+    VivintArena= folium.Map(location=[40.76832, -111.90108], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "生活智能家居球館"
-    folium.Marker([40.76950185004792, -111.9012591931141], popup="生活智能家居球館", tooltip=tooltip
+    folium.Marker([40.76832, -111.90108], popup="生活智能家居球館", tooltip=tooltip
     ).add_to(VivintArena)
     folium_static(VivintArena)
     col1, col2 = st.columns(2)
