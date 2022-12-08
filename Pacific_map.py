@@ -13,10 +13,10 @@ def Golden_State_Warriors_map():  #勇士
     folium_static(Chase_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Chase_Center.jpg')
+        image = Image.open('Home/Chase_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Chase_Center_Tickets.jpg')
+        image1 = Image.open('Home/Chase_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1 Warriors Way, San Francisco, CA 94158美國, 觀眾席數：18,064席')
   
@@ -30,10 +30,10 @@ def Los_Angeles_Clippers_map():  #快艇
     folium_static(Staples_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Staples_Center.jpg')
+        image = Image.open('Home/Staples_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Staples_Center_Tickets.jpg')
+        image1 = Image.open('Home/Staples_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：19,060人')
     
@@ -47,10 +47,10 @@ def Los_Angeles_Lakers_map():  #湖人
     folium_static(Staples_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Staples_Center.jpg')
+        image = Image.open('Home/Staples_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Staples_Center_Tickets.jpg')
+        image1 = Image.open('Home/Staples_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：18,997人')
     
@@ -64,10 +64,10 @@ def Phoenix_Suns_map():  #太陽
     folium_static(Footprint_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Footprint_Center.jpg')
+        image = Image.open('Home/Footprint_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Footprint_Center_Tickets.jpg')
+        image1 = Image.open('Home/Footprint_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：US Airways Center, 201S 1st St, Phoenix, AZ 85004美國, 觀眾席數：18,422人')
 
@@ -81,9 +81,9 @@ def Sacramento_Kings_map():  #國王
     folium_static(Golden1_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Golden1_Center.jpg')
+        image = Image.open('Home/Golden1_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Golden1_Center_Tickets.jpg')
+        image1 = Image.open('Home/Golden1_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：500 David J Stern Walk, Sacramento, CA 95814美國, 觀眾席數：17,500人')  
