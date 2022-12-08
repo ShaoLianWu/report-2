@@ -9,6 +9,7 @@ import Atlantic_map#存取Atlantic_map.py
 import Central_map
 import Southeast_map
 import Northwest_map
+import Pacific_map
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
 option = st.sidebar.selectbox( '選擇區域？', ['Atlantic', 'Central', 'Southeast', 'Northwest','Pacific','Southwest'])
@@ -50,15 +51,20 @@ if option=='Central':
 if option=='Pacific': 
   teams=st.sidebar.selectbox( '選擇球隊？', ['Golden State Warriors', 'Los Angeles Clippers', 'Los Angeles Lakers', 'Phoenix Suns','Sacramento Kings'])
   if teams=='Golden State Warriors':
-    Pacific.Golden_State_Warriors()
+    Pacific.Golden_State_Warriors() 
+    Pacific_map.Golden_State_Warriors_map()
   if teams=='Los Angeles Clippers':
     Pacific.Los_Angeles_Clippers()
+    Pacific_map.Los_Angeles_Clippers_map()
   if teams=='Los Angeles Lakers':
-    Pacific.Los_Angeles_Lakers()
+    Pacific.Los_Angeles_Lakers()    
+    Pacific_map.Los_Angeles_Lakers_map()
   if teams=='Phoenix Suns':
     Pacific.Phoenix_Suns()
+    Pacific_map.Phoenix_Suns_map()
   if teams=='Sacramento Kings':
-    Pacific.Sacramento_Kings() 
+    Pacific.Sacramento_Kings()     
+    Pacific_map.Sacramento_Kings_map()
     
 if option=='Southwest':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Dallas Mavericks', 'Houston Rockets', 'Memphis Grizzlies', 'New Orleans Pelicans','San Antonio Spurs'])
