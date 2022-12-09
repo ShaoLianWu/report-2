@@ -10,6 +10,8 @@ import Central_map
 import Southeast_map
 import Northwest_map
 import Pacific_map
+import 3star
+
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
 option = st.sidebar.selectbox( '選擇區域？', ['Atlantic', 'Central', 'Southeast', 'Northwest','Pacific','Southwest'])
@@ -17,6 +19,7 @@ if option=='Atlantic':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Boston Celtics', 'Brooklyn Nets', 'New York Knicks', 'Philadelphia 76ers','Toronto Raptors'])
   if teams=='Boston Celtics':
     Atlantic.BostonCeltics()
+    3star.BostonCeltics_Star()
     Atlantic_map.BostonCeltics_map() #呼叫Atlantic_map.py裡的BostonCeltics_map()
   if teams=='Brooklyn Nets':
     Atlantic.BrooklynNets()
