@@ -10,21 +10,17 @@ def BostonCeltics_Star():
   with col1:
     image = Image.open('star/傳奇球星.jpg')
     st.image(image)
-    if option=='Bill Russell':
-      image = Image.open('star/Bill Russell.jpg')
-      st.image(image) 
   with col2:
     option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
     if option=='Bill Russell':
       new_df = df[0:1]
       st.dataframe(new_df)
-      
-  if option=='Larry Bird':
-    new_df = df[1:2]
-    st.dataframe(new_df)
-  if option=='Paul Pierce':
-    new_df = df[2:3]
-    st.dataframe(new_df)
+    if option=='Larry Bird':
+      new_df = df[1:2]
+      st.dataframe(new_df)
+    if option=='Paul Pierce':
+      new_df = df[2:3]
+      st.dataframe(new_df)
     
    
    
