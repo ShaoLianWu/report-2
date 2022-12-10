@@ -3,9 +3,9 @@ from PIL import Image
 import pandas as pd
 import xlrd  
 import openpyxl
+df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")  
 def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
-  df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")  
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
@@ -28,7 +28,7 @@ def BostonCeltics_Star():
     if option=='Paul Pierce':
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
-   
+def BrooklynNets_star():
    
       
 
