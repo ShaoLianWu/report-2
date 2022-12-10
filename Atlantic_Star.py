@@ -29,11 +29,21 @@ def BostonCeltics_Star():
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
 def BrooklynNets_star():
-    st.header('Brooklyn Nets三大傳奇球星')
-    col1, col2= st.columns(2)
-    with col1:
+  st.header('Brooklyn Nets三大傳奇球星')
+  col1, col2= st.columns(2)
+  with col1:
+    option=st.selectbox('選擇球星？',['Julius Erving', 'Jason Kidd', 'Derrick Coleman'])
+    if option=='Julius Erving':
+      new_df = df[6:7]
+      st.dataframe(new_df)
+    if option=='Jason Kidd':
+      new_df = df[7:8]
+      st.dataframe(new_df)
+    if option=='Derrick Coleman':
+      new_df = df[8:9]
+      st.dataframe(new_df)
+  with col2:
     
-    with col2:
   
       
 
