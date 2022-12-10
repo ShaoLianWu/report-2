@@ -41,7 +41,6 @@ def BrooklynNets_star():
       st.dataframe(new_df)
     with col3:  
       st.button('Derrick Coleman')
-      st.button('Jason Kidd')
       new_df = df[8:9]
       st.dataframe(new_df)
 
