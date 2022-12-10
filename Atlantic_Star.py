@@ -8,9 +8,6 @@ def BostonCeltics_Star():
   df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")  
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('star/傳奇球星.jpg')
-    st.image(image)
-  with col2:
     option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
     if option=='Bill Russell':
       new_df = df[0:1]
@@ -21,6 +18,9 @@ def BostonCeltics_Star():
     if option=='Paul Pierce':
       new_df = df[2:3]
       st.dataframe(new_df)
+  with col2:
+    image = Image.open('star/傳奇球星.jpg')
+    st.image(image)
     
    
    
