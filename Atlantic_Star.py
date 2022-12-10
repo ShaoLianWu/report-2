@@ -21,6 +21,9 @@ def BostonCeltics_Star():
   with col2:
     image = Image.open('star/傳奇球星.jpg')
     st.image(image)
+    if option=='Bill Russell':
+      image = Image.open('star/Bill Russell.jpg')
+      st.image(image)
     
    
    
