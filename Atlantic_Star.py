@@ -7,7 +7,7 @@ def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
   option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
   if option=='Bill Russell':
-    image = Image.open('star/guardians.jpg')
+    image = Image.open('star/guardians.png')
     st.image(image) 
     df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")
     new_df = df[0:1]
