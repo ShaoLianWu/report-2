@@ -43,7 +43,7 @@ def BrooklynNets_star():
       new_df = df[8:9]
       st.dataframe(new_df)
   with col2:
-     if option=='Julius Erving':
+    if option=='Julius Erving':
       image = Image.open('star/Bill Russell.jpg')
       st.image(image)
     if option=='Jason Kidd':
