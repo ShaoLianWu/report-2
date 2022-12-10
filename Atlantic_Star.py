@@ -19,12 +19,15 @@ def BostonCeltics_Star():
       new_df = df[2:3]
       st.dataframe(new_df)
   with col2:
-    image = Image.open('star/傳奇球星.jpg')
-    st.image(image)
     if option=='Bill Russell':
       image = Image.open('star/Bill Russell.jpg')
       st.image(image)
-    
+    if option=='Larry Bird':
+      image = Image.open('star/Larry Bird.jpg')
+      st.image(image)
+    if option=='Paul Pierce':
+      image = Image.open('star/Paul Pierce.jpg')
+      st.image(image)
    
    
       
