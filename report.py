@@ -24,6 +24,7 @@ if option=='Atlantic':
   if teams=='Brooklyn Nets':
     Atlantic.BrooklynNets()
     Atlantic_map.BrooklynNets_map()
+    Atlantic_Star.BrooklynNets_star()
   if teams=='New York Knicks':
     Atlantic.NewYorkKnicks() 
     Atlantic_map.NewYorkKnicks_map()
