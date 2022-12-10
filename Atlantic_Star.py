@@ -34,13 +34,13 @@ def BrooklynNets_star():
   with col1:
     option=st.selectbox('選擇球星？',['Julius Erving', 'Jason Kidd', 'Derrick Coleman'])
     if option=='Julius Erving':
-      new_df = df[6:7]
+      new_df = df[5:6]
       st.dataframe(new_df)
     if option=='Jason Kidd':
-      new_df = df[7:8]
+      new_df = df[6:7]
       st.dataframe(new_df)
     if option=='Derrick Coleman':
-      new_df = df[8:9]
+      new_df = df[7:8]
       st.dataframe(new_df)
   with col2:
     if option=='Julius Erving':
