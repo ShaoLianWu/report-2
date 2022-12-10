@@ -33,9 +33,12 @@ def BrooklynNets_star():
   col1, col2= st.columns(2)
   with col1:
     col1, col2,col3= st.columns(3)   
-    col1.x=st.button('Julius Erving')
-    col2.y=st.button('Jason Kidd')
-    col3.z=st.button('Derrick Coleman')                      
+    with col1:
+      x=st.button('Julius Erving')
+    with col2:
+      y=st.button('Jason Kidd')
+    with col3:
+      z=st.button('Derrick Coleman')                      
     if x:
       new_df = df[5:6]
       st.dataframe(new_df)
