@@ -29,6 +29,8 @@ def BostonCeltics_Star():
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
 def BrooklynNets_star():
-   
+    st.header('Brooklyn Nets三大傳奇球星')
+    option=st.button('Julius Erving')
+
       
 
