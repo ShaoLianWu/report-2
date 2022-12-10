@@ -1,6 +1,7 @@
 import streamlit as st  
 from PIL import Image
-
+import pandas as pd
+import xlrd  
 def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
   image = Image.open('star/傳奇球星.jpg')
