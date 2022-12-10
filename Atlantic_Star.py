@@ -8,6 +8,6 @@ def BostonCeltics_Star():
   image = Image.open('star/傳奇球星.jpg')
   st.image(image) 
   option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
-  df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols=["2,3"])
+  df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols=[2,3])
   st.write(df)
 
