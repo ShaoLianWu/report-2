@@ -12,8 +12,7 @@ def BostonCeltics_Star():
     df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")
     new_df = df[0:1]
     st.dataframe(new_df)
-    image1=Image.open('star/guardians.png')
-    image.replace = image1
+    image=Image.open('star/guardians.png')
     st.image(image) 
     
 
