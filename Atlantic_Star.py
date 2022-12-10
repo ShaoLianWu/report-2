@@ -12,7 +12,10 @@ def BostonCeltics_Star():
     df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")
     new_df = df[0:1]
     st.dataframe(new_df)
-    image=Image.open('star/guardians.png')
-    st.image(image) 
-    
+    try:
+      winnerimage = Image.open('star/guardians.png')
+        st.image(winnerimage)
+    except:
+    pass
+      
 
