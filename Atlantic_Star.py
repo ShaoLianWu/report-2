@@ -30,22 +30,10 @@ def BostonCeltics_Star():
       st.image(image)
 def BrooklynNets_star():
     st.header('Brooklyn Nets三大傳奇球星')
-    col1, col2,col3= st.columns(3)
+    col1, col2= st.columns(2)
     with col1:
-      new_df = df[6:7]
-      new_df=st.button('Julius Erving')
-      
-      st.write(new_df)
+    
     with col2:
-      new_df = df[7:8]
-      new_df=st.button('Jason Kidd')
-     
-      st.write(new_df)
-    with col3:  
-      new_df = df[8:9]
-      new_df=st.button('Derrick Coleman')
-     
-      st.write(new_df)
-
+  
       
 
