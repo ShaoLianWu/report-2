@@ -32,9 +32,9 @@ def BrooklynNets_star():
   st.header('Brooklyn Nets三大傳奇球星')
   col1, col2= st.columns(2)
   with col1:
-      x=st.button('Julius Erving')
-      y=st.button('Jason Kidd')
-      z=st.button('Derrick Coleman')                      
+    x=st.button('Julius Erving')
+    y=st.button('Jason Kidd')
+    z=st.button('Derrick Coleman')                      
     if x:
       new_df = df[5:6]
       st.dataframe(new_df)
