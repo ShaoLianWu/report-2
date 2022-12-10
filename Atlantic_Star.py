@@ -14,7 +14,7 @@ def BostonCeltics_Star():
     st.dataframe(new_df)
     try:
       winnerimage = Image.open('star/guardians.png')
-        st.image(winnerimage)
+      st.image(winnerimage)
     except:
     pass
       
