@@ -30,7 +30,13 @@ def BostonCeltics_Star():
       st.image(image)
 def BrooklynNets_star():
     st.header('Brooklyn Nets三大傳奇球星')
-    option=st.button('Julius Erving')
+    col1, col2,col3= st.columns(3)
+    with col1:
+      option=st.button('Julius Erving')
+    with col2:
+      option=st.button('Jason Kidd')
+    with col3:  
+      option=st.button('Derrick Coleman')
 
       
 
