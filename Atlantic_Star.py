@@ -16,6 +16,6 @@ def BostonCeltics_Star():
       winnerimage = Image.open('star/guardians.png')
       st.image(winnerimage)
     except:
-    pass
+      pass
       
 
