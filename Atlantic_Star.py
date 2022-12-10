@@ -14,6 +14,6 @@ def BostonCeltics_Star():
     st.dataframe(new_df)
     image1=Image.open('star/guardians.png')
     image.replace = image1
-    st.image(image1) 
+    st.image(image) 
     
 
