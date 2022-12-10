@@ -32,12 +32,8 @@ def BrooklynNets_star():
   st.header('Brooklyn Nets三大傳奇球星')
   col1, col2= st.columns(2)
   with col1:
-    col1, col2,col3= st.columns(3)   
-    with col1:
       x=st.button('Julius Erving')
-    with col2:
       y=st.button('Jason Kidd')
-    with col3:
       z=st.button('Derrick Coleman')                      
     if x:
       new_df = df[5:6]
@@ -49,6 +45,8 @@ def BrooklynNets_star():
       new_df = df[7:8]
       st.dataframe(new_df)
   with col2:
+     image = Image.open('star/傳奇球星.jpg')
+      st.image(image)
     if x:
       image = Image.open('star/Bill Russell.jpg')
       st.image(image)
