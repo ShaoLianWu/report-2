@@ -35,17 +35,17 @@ def BrooklynNets_star():
       new_df = df[6:7]
       new_df=st.button('Julius Erving')
       
-      st.dataframe(new_df)
+      st.write(new_df)
     with col2:
       new_df = df[7:8]
       new_df=st.button('Jason Kidd')
      
-      st.dataframe(new_df)
+      st.write(new_df)
     with col3:  
       new_df = df[8:9]
       new_df=st.button('Derrick Coleman')
      
-      st.dataframe(new_df)
+      st.write(new_df)
 
       
 
