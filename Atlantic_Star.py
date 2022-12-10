@@ -45,8 +45,6 @@ def BrooklynNets_star():
       new_df = df[7:8]
       st.dataframe(new_df)
   with col2:
-    image = Image.open('star/傳奇球星.jpg')
-    st.image(image)
     if x:
       image = Image.open('star/Bill Russell.jpg')
       st.image(image)
