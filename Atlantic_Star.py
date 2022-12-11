@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 import xlrd  
 import openpyxl
-df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")  #讀取excel
+df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
 def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
