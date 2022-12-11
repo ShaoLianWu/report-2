@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 import xlrd  
 import openpyxl
-df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")  
+df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H")  #讀取excel
 def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
@@ -30,29 +30,27 @@ def BostonCeltics_Star():
       st.image(image)
 def BrooklynNets_star():
   st.header('Brooklyn Nets三大傳奇球星')
-  col1, col2= st.columns(2)
+  col1, col2 = st.columns(2)
   with col1:
-    x=st.button('Julius Erving')
-    y=st.button('Jason Kidd')
-    z=st.button('Derrick Coleman')                      
-    if x:
-      new_df = df[5:6]
-      st.dataframe(new_df)
-    if y:
+    option=st.selectbox('選擇球星？',['Julius Erving', 'Jason Kidd', 'Derrick Coleman'])
+    if option=='Bill Russell':
       new_df = df[6:7]
       st.dataframe(new_df)
-    if z:
+    if option=='Larry Bird':
       new_df = df[7:8]
       st.dataframe(new_df)
+    if option=='Paul Pierce':
+      new_df = df[8:9]
+      st.dataframe(new_df)
   with col2:
-    if x:
-      image = Image.open('star/Bill Russell.jpg')
+    if option=='Bill Russell':
+      image = Image.open('star/Julius Erving.jpg')
       st.image(image)
-    if y:
-      image = Image.open('star/Larry Bird.jpg')
+    if option=='Larry Bird':
+      image = Image.open('star/Jason Kidd.jpg')
       st.image(image)
-    if z:
-      image = Image.open('star/Paul Pierce.jpg')
+    if option=='Paul Pierce':
+      image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
     
   
