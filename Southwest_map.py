@@ -13,10 +13,10 @@ def Dallas_Mavericks_map():  #獨行俠
     folium_static(American_Airlines_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/American_Airlines_Center.jpg')
+        image = Image.open('Home/American_Airlines_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/American_Airlines_Center_Tickets.jpg')
+        image1 = Image.open('Home/American_Airlines_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：2500 Victory Ave, Dallas, TX 75219美國, 觀眾席數：20,000 - 21,041席')
   
@@ -30,10 +30,10 @@ def Houston_Rockets_map():  #火箭
     folium_static(Toyota_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Toyota_Center.jpg')
+        image = Image.open('Home/Toyota_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Toyota_Center_Tickets.jpg')
+        image1 = Image.open('Home/Toyota_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1510 Polk St, Houston, TX 77002美國, 觀眾席數：18,300人')
     
@@ -47,10 +47,10 @@ def Memphis_Grizzlies_map():  #灰熊
     folium_static(FedExForum_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/FedExForum_Center.jpg')
+        image = Image.open('Home/FedExForum_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/FedExForum_Center_Tickets.jpg')
+        image1 = Image.open('Home/FedExForum_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：191 Beale St, Memphis, TN 38103美國, 觀眾席數：17,794人')
     
@@ -64,10 +64,10 @@ def New_Orleans_Pelicans_map():  #鵜鶘
     folium_static(Smoothie_King_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Smoothie_King_Center.jpg')
+        image = Image.open('Home/Smoothie_King_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Smoothie_King_Center_Tickets.jpg')
+        image1 = Image.open('Home/Smoothie_King_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1501 Dave Dixon Dr, New Orleans, LA 70113美國, 觀眾席數：16,867人')
 
@@ -81,9 +81,9 @@ def San_Antonio_Spurs_map():  #馬刺
     folium_static(ATT_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/ATT_Center.jpg')
+        image = Image.open('Home/ATT_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/ATT_Center_Tickets.jpg')
+        image1 = Image.open('Home/ATT_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1 AT&T Center Parkway, San Antonio, TX 78219美國, 觀眾席數：18,418人')
