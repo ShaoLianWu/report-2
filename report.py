@@ -76,14 +76,19 @@ if option=='Southwest':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Dallas Mavericks', 'Houston Rockets', 'Memphis Grizzlies', 'New Orleans Pelicans','San Antonio Spurs'])
   if teams=='Dallas Mavericks':
     Southwest.Dallas_Mavericks()
+    Southwest_map.Dallas_Mavericks_map()
   if teams=='Houston Rockets':
     Southwest.Houston_Rockets()
+    Southwest_map.Houston_Rockets_map()
   if teams=='Memphis Grizzlies':
     Southwest.Memphis_Grizzlies()
+    Southwest_map.Memphis_Grizzlies_map()
   if teams=='New Orleans Pelicans':
     Southwest.New_Orleans_Pelicans()
+    Southwest_map.New_Orleans_Pelicans_map()
   if teams=='San Antonio Spurs':
     Southwest.San_Antonio_Spurs()
+    Southwest_map.San_Antonio_Spurs_map()
 if option=='Southeast':
   teams=st.sidebar.selectbox( '選擇球隊？', ['Atlanta Hawks', 'Charlotte Hornets', 'Miami Heat', 'Orlando Magic','Washington Wizards'])
   if teams=='Atlanta Hawks':
