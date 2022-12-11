@@ -10,7 +10,9 @@ import Central_map
 import Southeast_map
 import Northwest_map
 import Pacific_map
+import Southwest_map
 import Atlantic_Star
+
 st.set_page_config(layout="wide")
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
