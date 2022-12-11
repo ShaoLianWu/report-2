@@ -7,10 +7,11 @@ def BostonCeltics():
     st.image(image) 
   with col2:
      st.write("""# Boston Celtics""")
+     st.write("""####### 波士頓塞爾提克(1946年-至今)""") 
      st.write("""##### 老闆:Wyc Grousbeck""")
      st.write("""##### GM:Juka Mcehaic""")
      st.write("""##### 總教練:Joe Mazzulla (臨時)""")
-     st.write("""##### 波士頓塞爾提克(1946年-至今)""") 
+     
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "17  次")
   col2.metric("分組冠軍🏆", "22  次")  
