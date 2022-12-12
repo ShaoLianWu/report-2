@@ -53,7 +53,7 @@ def BrooklynNets_star():
       image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
 def NewYorkKnicks_star():
-  st.header('Brooklyn Nets三大傳奇球星')
+  st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
