@@ -8,14 +8,14 @@ def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
-    if option=='Bill Russell':
+    option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
+    if option=='Tim Hardaway':
       new_df = df[0:1]
       st.dataframe(new_df)
-    if option=='Larry Bird':
+    if option=='Klay thompson':
       new_df = df[1:2]
       st.dataframe(new_df)
-    if option=='Paul Pierce':
+    if option=='Stephen Curry':
       new_df = df[2:3]
       st.dataframe(new_df)
   with col2:
