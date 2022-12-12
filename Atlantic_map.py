@@ -3,9 +3,10 @@ import folium
 from PIL import Image  
 from streamlit_folium import folium_static 
 def BostonCeltics_map():
+    st.header('主場:TD花園')
     col1, col2 = st.columns(2)
     with col1:
-        st.header('主場:TD花園')
+        
         TDGarden= folium.Map(location=[42.36622394101576, -71.06214665765047], zoom_start=16)
             # add marker for Liberty Bell
         tooltip = "TD花園"
