@@ -13,13 +13,14 @@ def BostonCeltics_map():
         folium.Marker([42.36622394101576, -71.06214665765047], popup="TD花園", tooltip=tooltip
         ).add_to(TDGarden)
         folium_static(TDGarden)
+        st.write("""### 地址：100 Legends Way, Boston, MA 02114美國,觀眾席數：18624席""")
     
     with col2:
         image = Image.open('Home/TD Garden.jpg')
         st.image(image)              
         image1 = Image.open('Home/TD Garden1.jpg')
         st.image(image1)
-    st.write('地址：100 Legends Way, Boston, MA 02114美國,觀眾席數：18624席')
+    
   
 def BrooklynNets_map():
     st.header('主場:巴克萊中心')
