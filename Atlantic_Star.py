@@ -76,6 +76,54 @@ def NewYorkKnicks_star():
     if option=='Willis Reed':
       image = Image.open('star/Willis Reed.jpg')
       st.image(image)
+def Philadelphia76ers_star():
+  st.header('Philadelphia 76ers三大傳奇球星')
+  col1, col2 = st.columns(2)
+  with col1:
+    option=st.selectbox('選擇球星？',['Dikembe Mutombo', 'Allen Iverson', 'Wilt Chamberlain'])
+    if option=='Dikembe Mutombo':
+      new_df = df[13:14]
+      st.dataframe(new_df)
+    if option=='Allen Iverson':
+      new_df = df[14:15]
+      st.dataframe(new_df)
+    if option=='Wilt Chamberlain':
+      new_df = df[15:16]
+      st.dataframe(new_df)
+  with col2:
+    if option=='Dikembe Mutombo':
+      image = Image.open('star/Dikembe Mutombo.jpg')
+      st.image(image)
+    if option=='Allen Iverson':
+      image = Image.open('star/Allen Iverson.jpg')
+      st.image(image)
+    if option=='Willis Reed':
+      image = Image.open('star/Wilt Chamberlain.jpg')
+      st.image(image)
+def TorontoRaptors_star():
+  st.header('Toronto Raptors三大傳奇球星')
+  col1, col2 = st.columns(2)
+  with col1:
+    option=st.selectbox('選擇球星？',['Kyle Lowry', 'Chris Bosh', 'Vince Carter'])
+    if option=='Kyle Lowry':
+      new_df = df[17:18]
+      st.dataframe(new_df)
+    if option=='Chris Bosh':
+      new_df = df[18:19]
+      st.dataframe(new_df)
+    if option=='Vince Carter':
+      new_df = df[19:20]
+      st.dataframe(new_df)
+  with col2:
+    if option=='Kyle Lowry':
+      image = Image.open('star/Kyle Lowry.jpg')
+      st.image(image)
+    if option=='Chris Bosh':
+      image = Image.open('star/Chris Bosh.jpg')
+      st.image(image)
+    if option=='Vince Carter':
+      image = Image.open('star/Vince Carter.jpg')
+      st.image(image)      
     
   
       
