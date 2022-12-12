@@ -28,7 +28,7 @@ def BostonCeltics_Star():
     if option=='Paul Pierce':
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
-def BrooklynNets_star():
+def BrooklynNets_Star():
   st.header('Brooklyn Nets三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -52,7 +52,7 @@ def BrooklynNets_star():
     if option=='Derrick Coleman':
       image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
-def NewYorkKnicks_star():
+def NewYorkKnicks_Star():
   st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -76,7 +76,7 @@ def NewYorkKnicks_star():
     if option=='Willis Reed':
       image = Image.open('star/Willis Reed.jpg')
       st.image(image)
-def Philadelphia76ers_star():
+def Philadelphia76ers_Star():
   st.header('Philadelphia 76ers三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -100,7 +100,7 @@ def Philadelphia76ers_star():
     if option=='Willis Reed':
       image = Image.open('star/Wilt Chamberlain.jpg')
       st.image(image)
-def TorontoRaptors_star():
+def TorontoRaptors_Star():
   st.header('Toronto Raptors三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
