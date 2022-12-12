@@ -52,6 +52,30 @@ def BrooklynNets_star():
     if option=='Derrick Coleman':
       image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
+def NewYorkKnicks_star():
+  st.header('Brooklyn Nets三大傳奇球星')
+  col1, col2 = st.columns(2)
+  with col1:
+    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
+    if option=='Walt Frazier':
+      new_df = df[9:10]
+      st.dataframe(new_df)
+    if option=='Patrick Ewing':
+      new_df = df[10:11]
+      st.dataframe(new_df)
+    if option=='Willis Reed':
+      new_df = df[11:12]
+      st.dataframe(new_df)
+  with col2:
+    if option=='Walt Frazier':
+      image = Image.open('star/Walt Frazier.jpg')
+      st.image(image)
+    if option=='Patrick Ewing':
+      image = Image.open('star/Patrick Ewing.jpg')
+      st.image(image)
+    if option=='Willis Reed':
+      image = Image.open('star/Willis Reed.jpg')
+      st.image(image)
     
   
       
